@@ -1,0 +1,15 @@
+name: InterWorld
+version: 1.0.0
+main: net.intertime.world.InterWorld
+api-version: '1.18'
+load: STARTUP
+author: InterTime
+description: Кастомний світ InterTime - гори, біоми, печери, структури
+commands:
+  iw:
+    description: Керування кастомними світами InterWorld
+    aliases: [interworld]
+permissions:
+  intertime.world.admin:
+    description: Створення світів і телепорт
+    default: op
